@@ -4,4 +4,6 @@ const collection = 'LIVRARIA';
 
 use(database);
 
-db[collection].find();
+db[collection].deleteOne(
+    {codigo: '7'}
+);
